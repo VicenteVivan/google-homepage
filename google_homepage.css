@@ -1,0 +1,145 @@
+:root {
+    --gris: rgb(65, 65, 65);
+    --fondo_gris: #f2f2f2;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    font-size: 13px;
+    text-align: right;
+    padding: 10px;
+}
+
+nav > * {
+    margin: 0 8px;
+}
+
+nav a {
+    color: var(--gris);
+    text-decoration: none;
+}
+
+nav > img {
+    position: relative;
+    top: 8px;
+    opacity: 0.6;
+}
+
+#main_search {
+    margin-top: 10%;
+}
+
+#main_search > * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#search_bar {
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 14px 40px;
+    font-size: 16px;
+    width: 580px;
+    border-radius: 30px;
+    border: 0;
+    box-shadow: 0 1px 8px rgb(200, 200, 200);
+    background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png");
+    background-size: 20px;
+    background-position: 15px center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.search_button {
+    padding: 10px 18px;
+    border: 0;
+    background-color: rgb(250, 250, 250);
+    font-size: 14px;
+    margin: 0 6px 20px 6px;
+    border-radius: 5px;
+}
+
+#bar_footer {
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+button#login {
+    margin-right: 15px;
+    background-color: #4284f3;
+    color: white;
+    padding: 7px 14px;
+    border: 0px;
+    font-weight: bolder;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+#google_english {
+    text-decoration: none;
+    color: rgb(39, 39, 153);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer > * {
+    font-weight: lighter;
+    background-color: var(--fondo_gris);
+    color: rgb(134, 134, 134);
+    padding: 10px 20px;
+    border: 1px solid gainsboro;
+    text-decoration: none;
+}
+
+#links {
+    border: 0;
+    text-align: center;
+}
+
+#links > * {
+    display: inline-block;
+    width: 49%;
+}
+
+#right {
+    text-align: right;
+    padding-right: -20px;
+}
+
+#left {
+    text-align: left;
+}
+
+#links a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
+
+form div button:hover {
+    filter: none;
+    border: 1px solid gainsboro;
+    box-shadow: 0 1px 2px gainsboro;
+}
